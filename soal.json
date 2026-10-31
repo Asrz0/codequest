@@ -1,0 +1,111 @@
+{
+  "hutan": {
+    "nama": "Hutan Algoritma",
+    "pilihan_ganda": [
+      {"tanya": "Apa yang dimaksud dengan algoritma?", "pilihan": ["Langkah-langkah terurut untuk menyelesaikan masalah", "Bahasa pemrograman baru", "Jenis perangkat keras komputer", "Program yang sedang error"], "jawab": 0, "penjelasan": "Algoritma adalah urutan langkah yang jelas dan terbatas untuk menyelesaikan suatu masalah."},
+      {"tanya": "Struktur yang memilih aksi berdasarkan suatu kondisi disebut?", "pilihan": ["Percabangan (if-else)", "Perulangan", "Variabel", "Komentar"], "jawab": 0, "penjelasan": "Percabangan (if-else) memilih jalur program berdasarkan kondisi benar atau salah."},
+      {"tanya": "Kode: for i in range(3): print('Hai'). Berapa kali 'Hai' tercetak?", "pilihan": ["2 kali", "3 kali", "4 kali", "0 kali"], "jawab": 1, "penjelasan": "range(3) menghasilkan 0, 1, 2 sehingga perulangan berjalan 3 kali."},
+      {"tanya": "Jika x = 7, berapa nilai dari (x > 5 and x < 10)?", "pilihan": ["False", "True", "Error", "7"], "jawab": 1, "penjelasan": "7 lebih dari 5 DAN kurang dari 10, jadi kedua kondisi benar sehingga hasilnya True."},
+      {"tanya": "Perulangan yang berjalan selama kondisinya bernilai benar adalah?", "pilihan": ["if", "while", "print", "def"], "jawab": 1, "penjelasan": "Perulangan while terus berjalan selama kondisinya True."},
+      {"tanya": "Pada flowchart, simbol belah ketupat (diamond) mewakili?", "pilihan": ["Mulai/Selesai", "Proses", "Keputusan/kondisi", "Output"], "jawab": 2, "penjelasan": "Belah ketupat dipakai untuk keputusan yang memiliki cabang Ya/Tidak."},
+      {"tanya": "total = 0, lalu for i in range(1, 5): total += i. Berapa nilai total?", "pilihan": ["15", "10", "4", "5"], "jawab": 1, "penjelasan": "range(1, 5) berisi 1, 2, 3, 4 sehingga totalnya 1+2+3+4 = 10."},
+      {"tanya": "i = 1; while i <= 5: i = i + 1. Berapa kali isi perulangan dijalankan?", "pilihan": ["4 kali", "5 kali", "6 kali", "Tak terhingga"], "jawab": 1, "penjelasan": "Nilai i = 1,2,3,4,5 memenuhi kondisi, jadi isi perulangan berjalan 5 kali."},
+      {"tanya": "Ciri algoritma yang baik adalah?", "pilihan": ["Berjalan selamanya", "Memiliki akhir (berhingga)", "Tidak butuh input", "Langkahnya ambigu"], "jawab": 1, "penjelasan": "Algoritma harus berhingga: pada akhirnya berhenti dan menghasilkan keluaran."},
+      {"tanya": "Operator logika yang bernilai True hanya jika KEDUA kondisi True adalah?", "pilihan": ["OR", "NOT", "AND", "=="], "jawab": 2, "penjelasan": "AND bernilai True hanya jika semua kondisi yang dihubungkan bernilai True."}
+    ],
+    "urutan": [
+      {"judul": "Membuat teh hangat", "langkah": ["Rebus air", "Masukkan teh ke gelas", "Tuangkan air panas", "Aduk dan tunggu 3 menit", "Sajikan"], "penjelasan": "Urutan langkah penting: air harus dipanaskan dulu sebelum dituang ke gelas berisi teh."},
+      {"judul": "Mencari angka terbesar", "langkah": ["Anggap angka pertama terbesar", "Bandingkan dengan angka berikutnya", "Jika lebih besar, jadikan terbesar baru", "Ulangi sampai angka terakhir", "Tampilkan angka terbesar"], "penjelasan": "Algoritma pencarian maksimum membandingkan satu per satu lalu menampilkan hasil di akhir."},
+      {"judul": "Menjumlah 1 sampai 5 (Python)", "langkah": ["total = 0", "for i in range(1, 6):", "    total = total + i", "print(total)"], "penjelasan": "Variabel disiapkan dulu, dijumlahkan dalam perulangan, lalu ditampilkan setelah perulangan selesai."}
+    ],
+    "biner": [
+      {"tanya": "Pohon keputusan punya 5 daun. Tulis 5 dalam biner 4 bit.", "nilai": 5, "bit": 4, "penjelasan": "5 = 4 + 1, jadi bit nilai 4 dan 1 menyala: 0101."},
+      {"tanya": "Ada 9 cabang pohon. Tulis 9 dalam biner 4 bit.", "nilai": 9, "bit": 4, "penjelasan": "9 = 8 + 1, jadi bit nilai 8 dan 1 menyala: 1001."}
+    ],
+    "pencocokan": [
+      {"judul": "Istilah Pemrograman Dasar", "pasangan": [["Variabel", "Wadah penyimpan data"], ["Perulangan", "Mengulang langkah berkali-kali"], ["Percabangan", "Memilih langkah berdasar kondisi"], ["Fungsi", "Blok kode yang bisa dipanggil ulang"]], "penjelasan": "Variabel, perulangan, percabangan, dan fungsi adalah pondasi pemrograman."},
+      {"judul": "Alur Program", "pasangan": [["Input", "Data yang masuk ke program"], ["Proses", "Pengolahan data"], ["Output", "Hasil yang ditampilkan"], ["Flowchart", "Diagram alir algoritma"]], "penjelasan": "Program umumnya mengikuti alur input, proses, output."}
+    ]
+  },
+  "gurun": {
+    "nama": "Gurun Basis Data",
+    "pilihan_ganda": [
+      {"tanya": "Kumpulan data terorganisasi yang disimpan dan dikelola komputer disebut?", "pilihan": ["Basis data (database)", "Browser", "Kompiler", "Firewall"], "jawab": 0, "penjelasan": "Basis data menyimpan data secara terstruktur agar mudah diakses dan dikelola."},
+      {"tanya": "Fungsi primary key pada sebuah tabel adalah?", "pilihan": ["Mengenkripsi data", "Mengidentifikasi setiap baris secara unik", "Menghapus data lama", "Mengurutkan kolom"], "jawab": 1, "penjelasan": "Primary key bernilai unik sehingga tiap baris dapat dibedakan."},
+      {"tanya": "Satu baris data lengkap dalam tabel disebut?", "pilihan": ["Query", "Index", "Record", "Schema"], "jawab": 2, "penjelasan": "Satu baris disebut record (tuple), sedangkan kolom disebut field."},
+      {"tanya": "Perintah SQL untuk MENGAMBIL data dari tabel adalah?", "pilihan": ["INSERT", "DELETE", "UPDATE", "SELECT"], "jawab": 3, "penjelasan": "SELECT dipakai untuk membaca atau menampilkan data."},
+      {"tanya": "Query untuk menampilkan nama siswa kelas 'A' dari tabel siswa(id, nama, kelas) adalah?", "pilihan": ["SELECT nama FROM siswa WHERE kelas = 'A';", "SELECT kelas FROM nama WHERE siswa = 'A';", "INSERT nama INTO siswa;", "DELETE FROM siswa WHERE nama = 'A';"], "jawab": 0, "penjelasan": "SELECT kolom FROM tabel WHERE kondisi adalah pola dasar query penyaringan."},
+      {"tanya": "Klausa WHERE pada SQL digunakan untuk?", "pilihan": ["Membuat tabel", "Menyaring baris berdasarkan kondisi", "Menghapus database", "Mengganti nama kolom"], "jawab": 1, "penjelasan": "WHERE membatasi baris yang diambil sesuai kondisi tertentu."},
+      {"tanya": "SELECT * FROM buku; berarti?", "pilihan": ["Menghapus semua buku", "Menampilkan semua kolom dari semua baris tabel buku", "Membuat tabel buku", "Menghitung jumlah buku"], "jawab": 1, "penjelasan": "Tanda * berarti semua kolom, tanpa WHERE berarti semua baris."},
+      {"tanya": "Perintah SQL untuk menambah data baru ke tabel adalah?", "pilihan": ["INSERT INTO", "SELECT", "DROP", "ALTER"], "jawab": 0, "penjelasan": "INSERT INTO menambahkan baris baru ke dalam tabel."},
+      {"tanya": "Foreign key adalah?", "pilihan": ["Kolom yang merujuk ke primary key tabel lain", "Kunci enkripsi database", "Nama lain dari tabel", "Kolom yang selalu kosong"], "jawab": 0, "penjelasan": "Foreign key menghubungkan dua tabel melalui primary key tabel lain."},
+      {"tanya": "Manakah yang merupakan sistem manajemen basis data (DBMS)?", "pilihan": ["Photoshop", "MySQL", "Chrome", "Windows"], "jawab": 1, "penjelasan": "MySQL adalah DBMS populer untuk mengelola basis data relasional."}
+    ],
+    "urutan": [
+      {"judul": "Menyusun query SQL", "langkah": ["SELECT nama, kelas", "FROM siswa", "WHERE kelas = 'A'", "ORDER BY nama;"], "penjelasan": "Urutan klausa SQL: SELECT, FROM, WHERE, lalu ORDER BY."},
+      {"judul": "Membangun database sederhana", "langkah": ["Tentukan kebutuhan data", "Rancang tabel dan primary key", "Buat tabel dengan CREATE TABLE", "Isi data dengan INSERT", "Ambil data dengan SELECT"], "penjelasan": "Rancang dulu, buat struktur, isi data, baru ambil data."}
+    ],
+    "biner": [
+      {"tanya": "Oasis punya 12 pohon kurma. Tulis 12 dalam biner 4 bit.", "nilai": 12, "bit": 4, "penjelasan": "12 = 8 + 4, jadi bit nilai 8 dan 4 menyala: 1100."},
+      {"tanya": "Ada 21 baris di tabel. Tulis 21 dalam biner 8 bit.", "nilai": 21, "bit": 8, "penjelasan": "21 = 16 + 4 + 1, jadi 00010101."}
+    ],
+    "pencocokan": [
+      {"judul": "Istilah Basis Data", "pasangan": [["Tabel", "Kumpulan baris dan kolom data"], ["Primary Key", "Pengenal unik tiap baris"], ["Kolom (Field)", "Atribut data seperti nama"], ["Query", "Perintah mengambil/mengolah data"]], "penjelasan": "Tabel menyimpan data, primary key membedakan baris, query mengolahnya."},
+      {"judul": "Perintah SQL", "pasangan": [["SELECT", "Mengambil data"], ["INSERT", "Menambah data"], ["UPDATE", "Mengubah data"], ["DELETE", "Menghapus data"]], "penjelasan": "Keempatnya adalah operasi dasar data (CRUD)."}
+    ]
+  },
+  "gunung": {
+    "nama": "Pegunungan Jaringan",
+    "pilihan_ganda": [
+      {"tanya": "Fungsi utama IP address adalah?", "pilihan": ["Mempercepat prosesor", "Mengidentifikasi perangkat dalam jaringan", "Menyimpan file", "Mengatur warna layar"], "jawab": 1, "penjelasan": "IP address adalah alamat unik agar perangkat dapat saling menemukan di jaringan."},
+      {"tanya": "DNS bertugas mengubah?", "pilihan": ["Nama domain menjadi alamat IP", "Gambar menjadi teks", "Password menjadi biner", "Kabel menjadi WiFi"], "jawab": 0, "penjelasan": "DNS menerjemahkan nama seperti example.com menjadi alamat IP."},
+      {"tanya": "Protokol untuk mengakses web secara terenkripsi adalah?", "pilihan": ["FTP", "HTTP", "HTTPS", "SMTP"], "jawab": 2, "penjelasan": "HTTPS adalah HTTP yang diamankan dengan enkripsi TLS."},
+      {"tanya": "Alamat IPv4 terdiri dari berapa oktet?", "pilihan": ["2", "4", "6", "8"], "jawab": 1, "penjelasan": "IPv4 memiliki 4 oktet (32 bit), contoh 192.168.1.1."},
+      {"tanya": "Topologi yang semua perangkatnya terhubung ke satu titik pusat (switch/hub) adalah?", "pilihan": ["Bus", "Ring", "Star (bintang)", "Mesh"], "jawab": 2, "penjelasan": "Pada topologi star, semua perangkat tersambung ke perangkat pusat."},
+      {"tanya": "Perangkat yang meneruskan paket antar jaringan berbeda adalah?", "pilihan": ["Router", "Speaker", "Monitor", "Keyboard"], "jawab": 0, "penjelasan": "Router menentukan jalur terbaik untuk paket data antar jaringan."},
+      {"tanya": "Manakah yang BUKAN alamat IPv4 yang valid?", "pilihan": ["10.0.0.1", "172.16.5.9", "192.168.1.300", "192.168.0.254"], "jawab": 2, "penjelasan": "Setiap oktet hanya boleh 0 sampai 255, sehingga 300 tidak valid."},
+      {"tanya": "Protokol yang umum dipakai untuk MENGIRIM email adalah?", "pilihan": ["SMTP", "DNS", "SSH", "HTTP"], "jawab": 0, "penjelasan": "SMTP (Simple Mail Transfer Protocol) dipakai untuk pengiriman email."},
+      {"tanya": "LAN adalah jaringan dengan cakupan?", "pilihan": ["Seluruh dunia", "Area lokal terbatas, seperti rumah atau kampus", "Antar planet", "Hanya satu komputer"], "jawab": 1, "penjelasan": "LAN (Local Area Network) mencakup area kecil seperti rumah, kantor, atau kampus."},
+      {"tanya": "Port default untuk HTTP adalah?", "pilihan": ["21", "25", "80", "443"], "jawab": 2, "penjelasan": "HTTP memakai port 80, sedangkan HTTPS memakai port 443."}
+    ],
+    "urutan": [
+      {"judul": "Alur membuka sebuah website", "langkah": ["Ketik alamat di browser", "DNS menerjemahkan nama ke IP", "Browser terhubung ke server", "Server mengirim halaman web", "Browser menampilkan halaman"], "penjelasan": "Nama domain harus diterjemahkan dulu oleh DNS sebelum browser bisa menghubungi server."},
+      {"judul": "Menyiapkan jaringan WiFi rumah", "langkah": ["Hubungkan modem ke penyedia internet", "Sambungkan router ke modem", "Atur nama WiFi dan password", "Hubungkan perangkat ke WiFi"], "penjelasan": "Internet masuk lewat modem, dibagi oleh router, lalu perangkat tersambung."}
+    ],
+    "biner": [
+      {"tanya": "Oktet pertama IP kampus adalah 192. Tulis 192 dalam biner 8 bit.", "nilai": 192, "bit": 8, "penjelasan": "192 = 128 + 64, jadi 11000000."},
+      {"tanya": "Oktet kedua adalah 168. Tulis 168 dalam biner 8 bit.", "nilai": 168, "bit": 8, "penjelasan": "168 = 128 + 32 + 8, jadi 10101000."}
+    ],
+    "pencocokan": [
+      {"judul": "Istilah Jaringan", "pasangan": [["IP Address", "Alamat unik perangkat"], ["DNS", "Penerjemah nama domain"], ["Router", "Penghubung antar jaringan"], ["Protokol", "Aturan komunikasi data"]], "penjelasan": "Keempat istilah ini adalah dasar cara kerja internet."},
+      {"judul": "Topologi Jaringan", "pasangan": [["Star", "Semua terhubung ke pusat"], ["Bus", "Satu kabel utama bersama"], ["Ring", "Perangkat tersambung melingkar"], ["Mesh", "Banyak jalur antar perangkat"]], "penjelasan": "Topologi menggambarkan susunan hubungan antar perangkat."}
+    ]
+  },
+  "kota": {
+    "nama": "Kota Cyber",
+    "pilihan_ganda": [
+      {"tanya": "Phishing adalah?", "pilihan": ["Memancing ikan secara digital", "Penipuan lewat pesan atau situs palsu untuk mencuri data", "Teknik mempercepat internet", "Jenis kabel jaringan"], "jawab": 1, "penjelasan": "Phishing menipu korban agar menyerahkan data pribadi lewat tautan atau pesan palsu."},
+      {"tanya": "Manakah password yang paling kuat?", "pilihan": ["12345678", "namaku", "password", "Tm9#qL!2vXe"], "jawab": 3, "penjelasan": "Password kuat panjang dan mengandung huruf besar, kecil, angka, dan simbol."},
+      {"tanya": "Verifikasi dua langkah (2FA) berfungsi untuk?", "pilihan": ["Menambah lapisan keamanan selain password", "Mempercepat login", "Menghapus akun", "Menyimpan password"], "jawab": 0, "penjelasan": "2FA meminta bukti kedua (misalnya kode OTP) sehingga akun lebih aman."},
+      {"tanya": "Biner 1010 sama dengan desimal berapa?", "pilihan": ["8", "10", "12", "5"], "jawab": 1, "penjelasan": "1010 = 8 + 2 = 10."},
+      {"tanya": "Heksadesimal F bernilai desimal berapa?", "pilihan": ["10", "14", "15", "16"], "jawab": 2, "penjelasan": "Urutan hexa: A=10, B=11, C=12, D=13, E=14, F=15."},
+      {"tanya": "Malware yang mengunci data lalu meminta tebusan disebut?", "pilihan": ["Adware", "Ransomware", "Spyware", "Freeware"], "jawab": 1, "penjelasan": "Ransomware mengenkripsi data korban dan meminta uang tebusan."},
+      {"tanya": "Kamu menerima email 'akun diblokir, klik tautan ini sekarang!'. Tindakan terbaik?", "pilihan": ["Klik dan isi data", "Teruskan ke teman", "Jangan klik, cek lewat situs atau aplikasi resmi", "Balas dengan password"], "jawab": 2, "penjelasan": "Pesan mendesak seperti ini ciri phishing. Verifikasi lewat jalur resmi."},
+      {"tanya": "Berapa nilai desimal terbesar yang bisa disimpan 8 bit (tanpa tanda)?", "pilihan": ["128", "255", "256", "512"], "jawab": 1, "penjelasan": "11111111 dalam biner = 255."},
+      {"tanya": "Tanda koneksi web terenkripsi biasanya adalah?", "pilihan": ["Ikon gembok dan https://", "Banyak iklan", "Warna situs biru", "Alamat berakhiran .com"], "jawab": 0, "penjelasan": "Gembok dan https:// menandakan koneksi dienkripsi, walau bukan jaminan situs pasti aman."},
+      {"tanya": "Firewall berfungsi untuk?", "pilihan": ["Mendinginkan komputer", "Menyaring lalu lintas jaringan berdasarkan aturan", "Mempercepat WiFi", "Mengompres file"], "jawab": 1, "penjelasan": "Firewall memeriksa dan memblokir lalu lintas yang tidak sesuai aturan keamanan."}
+    ],
+    "urutan": [
+      {"judul": "Menanggapi email mencurigakan", "langkah": ["Jangan klik tautan apa pun", "Periksa alamat pengirim", "Laporkan sebagai phishing", "Hapus email"], "penjelasan": "Amankan diri dulu, periksa, laporkan, lalu hapus."},
+      {"judul": "Membuat akun yang aman", "langkah": ["Pilih password panjang dan unik", "Aktifkan verifikasi dua langkah", "Simpan di pengelola password", "Jangan bagikan ke siapa pun"], "penjelasan": "Mulai dari password kuat, tambah 2FA, simpan dengan aman, jaga kerahasiaannya."}
+    ],
+    "biner": [
+      {"tanya": "Kode ASCII huruf 'A' adalah 65. Tulis 65 dalam biner 8 bit.", "nilai": 65, "bit": 8, "penjelasan": "65 = 64 + 1, jadi 01000001."},
+      {"tanya": "Nilai terbesar 8 bit adalah 255. Tulis dalam biner 8 bit.", "nilai": 255, "bit": 8, "penjelasan": "Semua bit menyala: 11111111 = 255."}
+    ],
+    "pencocokan": [
+      {"judul": "Istilah Keamanan Siber", "pasangan": [["Phishing", "Penipuan lewat pesan palsu"], ["Ransomware", "Mengunci data minta tebusan"], ["Firewall", "Penyaring lalu lintas jaringan"], ["Enkripsi", "Mengacak data agar tak terbaca"]], "penjelasan": "Memahami istilah ini membantu mengenali ancaman dan perlindungannya."},
+      {"judul": "Sistem Bilangan", "pasangan": [["Biner", "Basis 2 (0 dan 1)"], ["Desimal", "Basis 10"], ["Heksadesimal", "Basis 16 (0-9, A-F)"], ["Bit", "Satuan data terkecil"]], "penjelasan": "Komputer bekerja dengan biner; hexa dipakai agar biner lebih ringkas."}
+    ]
+  }
+}
